@@ -1,5 +1,11 @@
 'use strict';
 
-const sum = require('./app');
+import Title from './app';
+import React from 'react';
+// import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 
-console.log(sum(2,2));
+render(
+  React.createElement(Title),
+  document.getElementById('app')
+)
