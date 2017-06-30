@@ -1,0 +1,21 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "Trabalhando com React + Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "npm",
+    "react",
+    "webpack"
+  ],
+  "author": "Natan Severianos",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
