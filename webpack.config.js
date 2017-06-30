@@ -12,7 +12,8 @@ const path = require('path');
                 diz onde esse arquivo irá ficar
 */
 module.exports = {
-
+  devtool: 'source-map',
+  
   entry: path.join(__dirname, 'src', 'index'),
 
   output: {

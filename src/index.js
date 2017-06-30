@@ -6,6 +6,7 @@ import React from 'react';
 import { render } from 'react-dom';
 
 render(
-  React.createElement(Title),
+  // React.createElement(Title),
+  <Title />,
   document.getElementById('app')
 )
